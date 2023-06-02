@@ -14,6 +14,8 @@ $pregunta8 = $_POST["pregunta8"];
 $pregunta9 = $_POST["pregunta9"];
 $pregunta10 = $_POST["pregunta10"];
 
+echo "Tu nombre es: ".$nombre;
+
 echo "<h3>Pregunta 1, respuesta seleccionada: (".$pregunta1.")</h3>";
 
 if($pregunta1 == "a"){
@@ -113,6 +115,7 @@ if($pregunta10 == "c"){
     echo "<p>Respuesta es A</p>";
     echo "<img src='incorrecta.png' width='3%'><hr>";
 }
+
 
 if($calificacion >=0 && $calificacion <=5){
     echo "<h3>Calificacion: ".$calificacion.", No aprobado (Estudiele)</h3>";
