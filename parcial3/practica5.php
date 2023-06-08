@@ -16,12 +16,17 @@
     [ ][ ][ ]
     */
 
-
     if($cuadros[0] == "X" && $cuadros[1] == "X" && $cuadros[2] == "X"){
         echo "<h1>Ganador [X] </h1>";
+        echo "[X][X][X]<br>";
+        echo "[ ][ ][ ]<br>";
+        echo "[ ][ ][ ]";
         return;
     }  else if($cuadros[0] == "O" && $cuadros[1] == "O" && $cuadros[2] == "O"){
         echo "<h1>Ganador [O] </h1>";
+        echo "[O][O][O]<br>";
+        echo "[ ][ ][ ]<br>";
+        echo "[ ][ ][ ]";
     }
    
 
@@ -33,9 +38,17 @@
 
     if($cuadros[3] == "X" && $cuadros[4] == "X" && $cuadros[5] == "X"){
         echo "<h1>Ganador [X] </h1>";
+        echo "[ ][ ][ ]<br>";
+        echo "[X][X][X]<br>";
+        echo "[ ][ ][ ]";
         return;
     }  else if($cuadros[3] == "O" && $cuadros[4] == "O" && $cuadros[5] == "O"){
         echo "<h1>Ganador [O] </h1>";
+        echo "[ ][ ][ ]<br>";
+        echo "[O][O][O]<br>";
+        echo "[ ][ ][ ]";
+        
+        
     }
 
     /*
@@ -46,9 +59,15 @@
 
     if($cuadros[6] == "X" && $cuadros[7] == "X" && $cuadros[8] == "X"){
         echo "<h1>Ganador [X] </h1>";
+        echo "[ ][ ][ ]<br>";
+        echo "[ ][ ][ ]<br>";
+        echo "[X][X][X]";
         return;
     }  else if($cuadros[6] == "O" && $cuadros[7] == "O" && $cuadros[8] == "O"){
         echo "<h1>Ganador [O] </h1>";
+        echo "[ ][ ][ ]<br>";
+        echo "[ ][ ][ ]<br>";
+        echo "[O][O][O]";
     }
     /*
     [0][ ][ ]
@@ -58,9 +77,15 @@
 
     if($cuadros[0] == "X" && $cuadros[4] == "X" && $cuadros[8] == "X"){
         echo "<h1>Ganador [X] </h1>";
+        echo "[X][ ][ ]<br>";
+        echo "[ ][X][ ]<br>";
+        echo "[ ][ ][X]";
         return;
     }  else if($cuadros[0] == "O" && $cuadros[4] == "O" && $cuadros[8] == "O"){
         echo "<h1>Ganador [O] </h1>";
+        echo "[O][ ][ ]<br>";
+        echo "[ ][O][ ]<br>";
+        echo "[ ][ ][O]";
     }       
 
     /*
@@ -69,25 +94,37 @@
     [6][ ][ ]
     */
 
-    if($cuadros[2] == "X" && $cuadros[4] == "X" && $cuadros[5] == "X"){
+    if($cuadros[2] == "X" && $cuadros[4] == "X" && $cuadros[6] == "X"){
         echo "<h1>Ganador [X] </h1>";
+        echo "[ ][ ][X]<br>";
+        echo "[ ][X][ ]<br>";
+        echo "[X][ ][ ]";
         return;
-    }  else if($cuadros[2] == "O" && $cuadros[4] == "O" && $cuadros[5] == "O"){
+    }  else if($cuadros[2] == "O" && $cuadros[4] == "O" && $cuadros[6] == "O"){
         echo "<h1>Ganador [O] </h1>";
+        echo "[ ][ ][O]<br>";
+        echo "[ ][O][ ]<br>";
+        echo "[O][ ][ ]";
     }
     
 
     /*
-    [0 ][ ][ ]
+    [0][ ][ ]
     [3][ ][ ]
     [6][ ][ ]
     */
 
     if($cuadros[0] == "X" && $cuadros[3] == "X" && $cuadros[6] == "X"){
         echo "<h1>Ganador [X] </h1>";
+        echo "[X][ ][ ]<br>";
+        echo "[X][ ][ ]<br>";
+        echo "[X][ ][ ]";
         return;
     }  else if($cuadros[0] == "O" && $cuadros[3] == "O" && $cuadros[6] == "O"){
         echo "<h1>Ganador [O] </h1>";
+        echo "[O][ ][ ]<br>";
+        echo "[O][ ][ ]<br>";
+        echo "[O][ ][ ]";
     }
 
     /*
@@ -98,9 +135,15 @@
 
     if($cuadros[2] == "X" && $cuadros[5] == "X" && $cuadros[8] == "X"){
         echo "<h1>Ganador [X] </h1>";
+        echo "[ ][ ][2]<br>";
+        echo "[ ][ ][5]<br>";
+        echo "[ ][ ][8]";
         return; 
     }  else if($cuadros[2] == "O" && $cuadros[5] == "O" && $cuadros[8] == "O"){
         echo "<h1>Ganador [O] </h1>";
+        echo "[ ][ ][2]<br>";
+        echo "[ ][ ][5]<br>";
+        echo "[ ][ ][8]";
     }
 
     
