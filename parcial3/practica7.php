@@ -29,7 +29,8 @@
 
     <div class="container">
         <h1>Practica 7 Tablero de serpientes y escaleras</h1><hr>
-        <form action="">
+        <form action="practica7.php" method="post">
+            <input type="submit" value="Jugar" class="btn btn-success">
             <div class="row">
                 <?php
 
